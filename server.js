@@ -10,7 +10,7 @@ let readyCheck = 0;
 
 const io = require("socket.io")(http, {
     cors: {
-        origin: "https://git.heroku.com/card-game-react.git",
+        origin: "https://card-game-react.herokuapp.com/",
         methods: ["GET", "POST"]
     }
 });
