@@ -10,7 +10,7 @@ let readyCheck = 0;
 
 const io = require("socket.io")(http, {
     cors: {
-        origin: "https://phaser-tabletop-card-game-2021.herokuapp.com",
+        origin: "https://git.heroku.com/card-game-react.git",
         methods: ["GET", "POST"]
     }
 });
