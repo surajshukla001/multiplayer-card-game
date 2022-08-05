@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 export default class SocketHandler {
     constructor(scene) {
 
-        scene.socket = io('https://git.heroku.com/card-game-react.git');
+        scene.socket = io('https://card-game-react.herokuapp.com');
 
         scene.socket.on('connect', () => {
             console.log('Connected!');
