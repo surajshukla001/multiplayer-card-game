@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 export default class SocketHandler {
     constructor(scene) {
 
-        scene.socket = io('https://phaser-tabletop-card-game-2021.herokuapp.com');
+        scene.socket = io('https://git.heroku.com/card-game-react.git');
 
         scene.socket.on('connect', () => {
             console.log('Connected!');
